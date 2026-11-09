@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tv_gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="看电视的时间到啦"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvQuizSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="本轮要答对 2 道题，才能继续观看 15 分钟"
+        android:textColor="#BFD9FF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvBannerStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvQuestionMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一年级 · 语文 · 第 1/2 题"
+            android:textColor="#9BC4FF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvQuestionPrompt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="18dp"
+            android:text="题目加载中..."
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOptA"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_option_button"
+            android:focusable="true"
+            android:gravity="center_vertical|start"
+            android:paddingHorizontal="20dp"
+            android:text="A."
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnOptB"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_option_button"
+            android:focusable="true"
+            android:gravity="center_vertical|start"
+            android:paddingHorizontal="20dp"
+            android:text="B."
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnOptC"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_option_button"
+            android:focusable="true"
+            android:gravity="center_vertical|start"
+            android:paddingHorizontal="20dp"
+            android:text="C."
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnOptD"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/bg_option_button"
+            android:focusable="true"
+            android:gravity="center_vertical|start"
+            android:paddingHorizontal="20dp"
+            android:text="D."
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnReplayQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_option_button"
+            android:focusable="true"
+            android:text="重播朗读题目"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutExplanation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/bg_card"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tvCorrectAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正确答案"
+            android:textColor="#6DF59E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvExplainBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="解题思路"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnReplayExplain"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:background="@drawable/bg_option_button"
+                android:focusable="true"
+                android:paddingHorizontal="16dp"
+                android:text="重播讲解" />
+
+            <TextView
+                android:id="@+id/tvWaitCountdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:textColor="#FFD166"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

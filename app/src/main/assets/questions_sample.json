@@ -1,0 +1,604 @@
+[
+  {
+    "id": "pep_g1_py_1",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "拼音题",
+    "volume": "上册",
+    "prompt": "下面哪个是整体认读音节？",
+    "promptPinyin": "xià miàn nǎ gè shì zhěng tǐ rèn dú yīn jié",
+    "options": [
+      "zh",
+      "zhi",
+      "an",
+      "ong"
+    ],
+    "correctIndex": 1,
+    "explanation": "zh 是声母，zhi 是整体认读音节，可直接给汉字注音。"
+  },
+  {
+    "id": "pep_g1_py_2",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "拼音题",
+    "volume": "上册",
+    "prompt": "“小鱼”的正确拼音是？",
+    "promptPinyin": "xiǎo yú de zhèng què pīn yīn shì",
+    "options": [
+      "xiǎo yǘ",
+      "xiǎo yú",
+      "xǎo yú",
+      "xiǎo ú"
+    ],
+    "correctIndex": 1,
+    "explanation": "j、q、x、y 与 ü 相拼时，ü 上两点要省去，写作 yu。"
+  },
+  {
+    "id": "pep_g1_cn_1",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“上”的反义词是？",
+    "promptPinyin": "shàng de fǎn yì cí shì",
+    "options": [
+      "果断",
+      "冷",
+      "下",
+      "老实"
+    ],
+    "correctIndex": 2,
+    "explanation": "“上”和“下”是一对反义词，成对记忆：上 — 下。"
+  },
+  {
+    "id": "pep_g1_cn_2",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "语文",
+    "volume": "下册",
+    "prompt": "“春眠不觉晓”的下一句是？",
+    "promptPinyin": "chūn mián bù jué xiǎo de xià yī jù shì",
+    "options": [
+      "处处闻啼鸟",
+      "花落知多少",
+      "夜来风雨声",
+      "低头思故乡"
+    ],
+    "correctIndex": 0,
+    "explanation": "出自孟浩然《春晓》：春眠不觉晓，处处闻啼鸟。"
+  },
+  {
+    "id": "pep_g1_math_1",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "1 和 4 合起来是几？",
+    "promptPinyin": "hé qǐ lái shì jǐ",
+    "options": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 + 4 = 5，所以 1 和 4 合起来是 5。"
+  },
+  {
+    "id": "pep_g1_math_2",
+    "grade": 1,
+    "gradeLabel": "一年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "1 张 10 元人民币可以换几张 5 元人民币？",
+    "promptPinyin": "zhāng yuán rén mín bì kě yǐ huàn jǐ zhāng yuán",
+    "options": [
+      "1 张",
+      "2 张",
+      "5 张",
+      "10 张"
+    ],
+    "correctIndex": 1,
+    "explanation": "5 + 5 = 10，所以 1 张 10 元可以换 2 张 5 元。"
+  },
+  {
+    "id": "pep_g2_cn_1",
+    "grade": 2,
+    "gradeLabel": "二年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“欲穷千里目”的下一句是？",
+    "promptPinyin": "yù qióng qiān lǐ mù de xià yī jù shì",
+    "options": [
+      "黄河入海流",
+      "更上一层楼",
+      "疑是银河落九天",
+      "春风吹又生"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自王之涣《登鹳雀楼》：欲穷千里目，更上一层楼。"
+  },
+  {
+    "id": "pep_g2_cn_2",
+    "grade": 2,
+    "gradeLabel": "二年级",
+    "subject": "语文",
+    "volume": "下册",
+    "prompt": "“碧玉妆成一树高”描写的是哪种植物？",
+    "promptPinyin": "bì yù zhuāng chéng yī shù gāo miáo xiě de shì",
+    "options": [
+      "松树",
+      "柳树",
+      "梅花",
+      "竹子"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自贺知章《咏柳》，“万条垂下绿丝绦”描写的是柳树。"
+  },
+  {
+    "id": "pep_g2_math_1",
+    "grade": 2,
+    "gradeLabel": "二年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "6 × 7 的得数是多少？",
+    "promptPinyin": "de dé shù shì duō shǎo",
+    "options": [
+      "36",
+      "42",
+      "48",
+      "49"
+    ],
+    "correctIndex": 1,
+    "explanation": "乘法口诀“六七四十二”，所以 6 × 7 = 42。"
+  },
+  {
+    "id": "pep_g2_math_2",
+    "grade": 2,
+    "gradeLabel": "二年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "把 24 个苹果平均分给 4 个小朋友，每人分几个？",
+    "promptPinyin": "bǎ píng guǒ píng jūn fēn gěi xiǎo péng yǒu",
+    "options": [
+      "4 个",
+      "5 个",
+      "6 个",
+      "8 个"
+    ],
+    "correctIndex": 2,
+    "explanation": "24 ÷ 4 = 6（四六二十四），每人分 6 个。"
+  },
+  {
+    "id": "pep_g3_cn_1",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "《饮湖上初晴后雨》的作者是宋代哪位诗人？",
+    "options": [
+      "李白",
+      "苏轼",
+      "王安石",
+      "陆游"
+    ],
+    "correctIndex": 1,
+    "explanation": "《饮湖上初晴后雨》是苏轼描写杭州西湖的名作。"
+  },
+  {
+    "id": "pep_g3_cn_2",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "语文",
+    "volume": "下册",
+    "prompt": "下列哪个成语比喻自己欺骗自己？",
+    "options": [
+      "刻舟求剑",
+      "掩耳盗铃",
+      "亡羊补牢",
+      "守株待兔"
+    ],
+    "correctIndex": 1,
+    "explanation": "掩耳盗铃比喻自己欺骗自己，明明掩盖不住的事情偏要想法子掩盖。"
+  },
+  {
+    "id": "pep_g3_math_1",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "1 分 30 秒等于多少秒？",
+    "options": [
+      "60 秒",
+      "90 秒",
+      "100 秒",
+      "130 秒"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 分钟 = 60 秒，60 + 30 = 90 秒。"
+  },
+  {
+    "id": "pep_g3_math_2",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "边长为 6 厘米的正方形，面积是多少平方厘米？",
+    "options": [
+      "12 平方厘米",
+      "24 平方厘米",
+      "36 平方厘米",
+      "30 平方厘米"
+    ],
+    "correctIndex": 2,
+    "explanation": "正方形面积 = 边长 × 边长 = 6 × 6 = 36 平方厘米。"
+  },
+  {
+    "id": "pep_g3_en_1",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "英语",
+    "volume": "上册",
+    "prompt": "别人跟你说 “Nice to meet you”，你应该回答：",
+    "options": [
+      "Goodbye!",
+      "Nice to meet you, too.",
+      "I'm ten.",
+      "Thank you."
+    ],
+    "correctIndex": 1,
+    "explanation": "“Nice to meet you, too.” 表示“我也很高兴认识你”。"
+  },
+  {
+    "id": "pep_g3_en_2",
+    "grade": 3,
+    "gradeLabel": "三年级",
+    "subject": "英语",
+    "volume": "下册",
+    "prompt": "英语单词 “strawberry” 指的是哪种水果？",
+    "options": [
+      "香蕉",
+      "西瓜",
+      "草莓",
+      "葡萄"
+    ],
+    "correctIndex": 2,
+    "explanation": "strawberry 是草莓，banana 是香蕉，watermelon 是西瓜。"
+  },
+  {
+    "id": "pep_g4_cn_1",
+    "grade": 4,
+    "gradeLabel": "四年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“横看成岭侧成峰，远近高低各不同”写的是哪座山？",
+    "options": [
+      "泰山",
+      "庐山",
+      "黄山",
+      "华山"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自苏轼《题西林壁》，描写的是江西庐山。"
+  },
+  {
+    "id": "pep_g4_math_1",
+    "grade": 4,
+    "gradeLabel": "四年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "一个平角等于多少度？",
+    "options": [
+      "90°",
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "explanation": "直角为 90°，平角为 180°，周角为 360°。"
+  },
+  {
+    "id": "pep_g4_math_2",
+    "grade": 4,
+    "gradeLabel": "四年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "三角形的内角和是多少度？",
+    "options": [
+      "90°",
+      "180°",
+      "240°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "explanation": "任意三角形三个内角的度数之和恒等于 180°。"
+  },
+  {
+    "id": "pep_g4_en_1",
+    "grade": 4,
+    "gradeLabel": "四年级",
+    "subject": "英语",
+    "volume": "下册",
+    "prompt": "“library” 的中文意思是：",
+    "options": [
+      "操场",
+      "图书馆",
+      "教室",
+      "食堂"
+    ],
+    "correctIndex": 1,
+    "explanation": "library 表示“图书馆”，playground 是操场，classroom 是教室。"
+  },
+  {
+    "id": "pep_g5_cn_1",
+    "grade": 5,
+    "gradeLabel": "五年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“王师北定中原日，家祭无忘告乃翁”出自陆游的哪首诗？",
+    "options": [
+      "《示儿》",
+      "《题临安邸》",
+      "《己亥杂诗》",
+      "《秋夜将晓出篱门迎凉有感》"
+    ],
+    "correctIndex": 0,
+    "explanation": "这是陆游临终前写给儿子的《示儿》，表达强烈的爱国之情。"
+  },
+  {
+    "id": "pep_g5_math_1",
+    "grade": 5,
+    "gradeLabel": "五年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "方程 2x + 6 = 14 的解是：",
+    "options": [
+      "x = 3",
+      "x = 4",
+      "x = 5",
+      "x = 10"
+    ],
+    "correctIndex": 1,
+    "explanation": "2x = 14 - 6 = 8，所以 x = 8 ÷ 2 = 4。"
+  },
+  {
+    "id": "pep_g5_math_2",
+    "grade": 5,
+    "gradeLabel": "五年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "最小的质数（素数）是几？",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "1 既不是质数也不是合数，2 是最小的质数，也是唯一的偶质数。"
+  },
+  {
+    "id": "pep_g5_en_1",
+    "grade": 5,
+    "gradeLabel": "五年级",
+    "subject": "英语",
+    "volume": "上册",
+    "prompt": "询问“今天星期几？”用英语怎么说？",
+    "options": [
+      "What time is it?",
+      "What day is it today?",
+      "What's the date?",
+      "How old are you?"
+    ],
+    "correctIndex": 1,
+    "explanation": "What day is it today? 用于询问星期几。"
+  },
+  {
+    "id": "pep_g6_cn_1",
+    "grade": 6,
+    "gradeLabel": "六年级",
+    "subject": "语文",
+    "volume": "下册",
+    "prompt": "“粉骨碎身浑不怕，要留清白在人间”出自于谦的哪首诗？",
+    "options": [
+      "《竹石》",
+      "《石灰吟》",
+      "《马诗》",
+      "《墨梅》"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自明代于谦《石灰吟》，托物言志表达高洁情操。"
+  },
+  {
+    "id": "pep_g6_math_1",
+    "grade": 6,
+    "gradeLabel": "六年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "半径为 3 厘米的圆，周长大约是多少厘米？（π 取 3.14）",
+    "options": [
+      "9.42 厘米",
+      "18.84 厘米",
+      "28.26 厘米",
+      "6.28 厘米"
+    ],
+    "correctIndex": 1,
+    "explanation": "圆的周长 C = 2πr = 2 × 3.14 × 3 = 18.84 厘米。"
+  },
+  {
+    "id": "pep_g6_math_2",
+    "grade": 6,
+    "gradeLabel": "六年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "如果 3 : x = 6 : 10，那么 x 等于多少？",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "根据比例基本性质 6x = 3 × 10 = 30，解得 x = 5。"
+  },
+  {
+    "id": "pep_g6_en_1",
+    "grade": 6,
+    "gradeLabel": "六年级",
+    "subject": "英语",
+    "volume": "下册",
+    "prompt": "动词 “go” 的过去式是：",
+    "options": [
+      "goed",
+      "went",
+      "gone",
+      "going"
+    ],
+    "correctIndex": 1,
+    "explanation": "go 为不规则动词，过去式是 went，过去分词是 gone。"
+  },
+  {
+    "id": "pep_g7_cn_1",
+    "grade": 7,
+    "gradeLabel": "七年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“学而不思则罔，思而不学则殆”出自哪部儒家经典？",
+    "options": [
+      "《孟子》",
+      "《论语》",
+      "《大学》",
+      "《中庸》"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自《论语·为政》，强调学习与思考必须相结合。"
+  },
+  {
+    "id": "pep_g7_math_1",
+    "grade": 7,
+    "gradeLabel": "七年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "计算 (-3) + (-5) 的结果是：",
+    "options": [
+      "2",
+      "-2",
+      "8",
+      "-8"
+    ],
+    "correctIndex": 3,
+    "explanation": "同号两数相加，取相同符号并把绝对值相加：-(3+5) = -8。"
+  },
+  {
+    "id": "pep_g7_en_1",
+    "grade": 7,
+    "gradeLabel": "七年级",
+    "subject": "英语",
+    "volume": "下册",
+    "prompt": "— Can you play ____ guitar? — Yes, I can.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "/"
+    ],
+    "correctIndex": 2,
+    "explanation": "演奏西洋乐器名称前要加定冠词 the，即 play the guitar。"
+  },
+  {
+    "id": "pep_g8_cn_1",
+    "grade": 8,
+    "gradeLabel": "八年级",
+    "subject": "语文",
+    "volume": "上册",
+    "prompt": "“采菊东篱下，悠然见南山”是哪位东晋诗人的名句？",
+    "options": [
+      "陶渊明",
+      "谢灵运",
+      "王维",
+      "孟浩然"
+    ],
+    "correctIndex": 0,
+    "explanation": "出自陶渊明《饮酒（其五）》，体现恬淡闲适的田园生活。"
+  },
+  {
+    "id": "pep_g8_math_1",
+    "grade": 8,
+    "gradeLabel": "八年级",
+    "subject": "数学",
+    "volume": "下册",
+    "prompt": "直角三角形两条直角边分别为 3 和 4，斜边长为：",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "由勾股定理 a² + b² = c²，得 3² + 4² = 9 + 16 = 25，斜边 c = 5。"
+  },
+  {
+    "id": "pep_g8_phy_1",
+    "grade": 8,
+    "gradeLabel": "八年级",
+    "subject": "物理",
+    "volume": "上册",
+    "prompt": "声音在下列哪种介质中传播速度最快？",
+    "options": [
+      "真空",
+      "空气",
+      "水",
+      "钢铁"
+    ],
+    "correctIndex": 3,
+    "explanation": "一般情况下，声速在固体中最快、液体次之、气体最慢，真空不能传声。"
+  },
+  {
+    "id": "pep_g9_cn_1",
+    "grade": 9,
+    "gradeLabel": "九年级",
+    "subject": "语文",
+    "volume": "下册",
+    "prompt": "“先天下之忧而忧，后天下之乐而乐”出自范仲淹的：",
+    "options": [
+      "《醉翁亭记》",
+      "《岳阳楼记》",
+      "《出师表》",
+      "《桃花源记》"
+    ],
+    "correctIndex": 1,
+    "explanation": "出自范仲淹《岳阳楼记》，表现以天下为己任的政治抱负。"
+  },
+  {
+    "id": "pep_g9_math_1",
+    "grade": 9,
+    "gradeLabel": "九年级",
+    "subject": "数学",
+    "volume": "上册",
+    "prompt": "一元二次方程 x² - 5x + 6 = 0 的两个根分别是：",
+    "options": [
+      "1 和 6",
+      "2 和 3",
+      "-2 和 -3",
+      "1 和 5"
+    ],
+    "correctIndex": 1,
+    "explanation": "因式分解 (x - 2)(x - 3) = 0，解得 x₁ = 2，x₂ = 3。"
+  },
+  {
+    "id": "pep_g9_phy_1",
+    "grade": 9,
+    "gradeLabel": "九年级",
+    "subject": "物理",
+    "volume": "全册",
+    "prompt": "欧姆定律的数学表达式是：",
+    "options": [
+      "I = U / R",
+      "P = U / I",
+      "W = UIt",
+      "Q = I²Rt"
+    ],
+    "correctIndex": 0,
+    "explanation": "导体中的电流与导体两端电压成正比、与电阻成反比，即 I = U / R。"
+  }
+]
